@@ -100,10 +100,10 @@ func main() {
 
 	//Route Handlers
 	r.HandleFunc("/api/books", getBooks).Methods("GET")
-	r.HandleFunc("/api/books/{id}", getBook).Methods("GET")
-	r.HandleFunc("/api/books", createBook).Methods("POST")
-	r.HandleFunc("/api/books/{id}", updateBook).Methods("PUT")
-	r.HandleFunc("/api/books/{id}", deleteBook).Methods("DELETE")
+	r.HandleFunc("/api/book/{id}", getBook).Methods("GET")
+	r.HandleFunc("/api/book", createBook).Methods("POST")
+	r.HandleFunc("/api/book/{id}", updateBook).Methods("PUT")
+	r.HandleFunc("/api/book/{id}", deleteBook).Methods("DELETE")
 
 	log.Fatal(http.ListenAndServe(":8000", r))
 }
