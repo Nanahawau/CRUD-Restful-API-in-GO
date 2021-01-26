@@ -10,6 +10,7 @@ You can build and run the project with one command
 * GET - http://localhost:8000/api/book/{id}
 * POST - http://localhost:8000/api/book
   Request 
+  
   ```
   {
     "Isbn": "4333",
@@ -18,10 +19,10 @@ You can build and run the project with one command
         "Firstname": "Nans",
         "Lastname": "Adeku",
         "Email": "Nans@gmail.com"
-    }
-}
+              }
+  }
 ```
-  
+```
 * PUT - http://localhost:8000/api/book/{id}
   Request 
   ```
@@ -33,6 +34,8 @@ You can build and run the project with one command
         "Lastname": "Adeku",
         "Email": "Nans@gmail.com"
     }
-}
+  }
+```
+
 ```
 * DELETE - http://localhost:8000/api/book/{id}
