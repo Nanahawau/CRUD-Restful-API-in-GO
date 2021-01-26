@@ -20,7 +20,7 @@ You can build and run the project with one command
         "Email": "Nans@gmail.com"
     }
 }
-  ```
+```
   
 * PUT - http://localhost:8000/api/book/{id}
   Request 
@@ -34,5 +34,5 @@ You can build and run the project with one command
         "Email": "Nans@gmail.com"
     }
 }
-  ```
+```
 * DELETE - http://localhost:8000/api/book/{id}
