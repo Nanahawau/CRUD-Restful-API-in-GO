@@ -1,5 +1,5 @@
 # CRUD-Restful-API-in-GO
-A simple rest api in Go, using mux router and net for http request. 
+A simple rest api in Go, using mux(a request router and dispatcher) and net/http (http client). 
 
 ## Run 
 You can build and run the project with one command 
